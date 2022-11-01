@@ -1,0 +1,90 @@
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.team-titel{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text);
+margin-bottom: 50px;
+}
+
+.team-item {
+ background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px; 
+}
+
+.team-text {
+    margin-bottom: 16px;
+}
+
+.team-text-content {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.team-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    /* background-color: #2196F3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms linear;
+    &:hover, 
+    &:focus {
+    background-color: var(--accent-color);
+    }
+}
+
+// .team-soc-link:hover, 
+// .team-soc-link:focus {
+//     background-color: var(--accent-color);
+// }
+
+.team-soc-icon {
+    fill: #AFB1BA;
+    .team-soc-link:hover &, 
+    .team-soc-link:focus & {
+    fill: #FFFFFF;
+    }
+}
+
+.team-titel-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text);
+margin-bottom: 10px;
+}
+
+.team-text {
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--section-text);
+}

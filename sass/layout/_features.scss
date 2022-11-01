@@ -1,0 +1,43 @@
+.features {
+    padding-top: 94px;
+}
+
+.picture__list {
+    display: flex;
+    gap: 30px;
+}
+
+.picture__icon {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture__item__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.picture__titel {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-text);
+margin-bottom: 10px;
+max-width: 270px;
+}
+
+
+.picture__text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--section-text);
+min-width: 270px;
+}
