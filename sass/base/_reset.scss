@@ -12,10 +12,14 @@ button {
     border: 0ch;
 }
 
-img {
-    display: block;
-}
 
 address {
     font-style: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    // width: 100%;
 }

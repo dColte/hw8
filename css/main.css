@@ -26,6 +26,12 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: "Roboto", Roboto, sans-serif;
   color: #212121;
@@ -59,6 +65,11 @@ body {
   padding-right: 15px;
   /* outline: 2px solid red; */
   margin: 0 auto;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .bacdrop {
@@ -545,8 +556,6 @@ body {
 }
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #F5F4FA;
 }
 
