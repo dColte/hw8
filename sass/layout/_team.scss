@@ -1,90 +1,71 @@
 .team {
-    // padding-top: 94px;
-    // padding-bottom: 94px;
-    background-color: #F5F4FA;
+    background-color: var(--primary-section-bg-cl);
+    padding: 60px 0;
+
+    @media screen and (min-width: $desktop) {
+        padding: 94px 0;
+    }
 }
 
-.team-list {
-    // display: flex;
+.team__list {
+    display: flex;
+    flex-direction: column;
     gap: 30px;
-    
-}
 
-.team-titel{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-text);
-margin-bottom: 50px;
-}
-
-.team-item {
- background: #FFFFFF;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px; 
-}
-
-.team-text {
-    margin-bottom: 16px;
-}
-
-.team-text-content {
-padding-top: 30px;
-padding-bottom: 30px;
-}
-
-.team-soc-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.team-soc-link {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    /* background-color: #2196F3; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 250ms linear;
-    &:hover, 
-    &:focus {
-    background-color: var(--accent-color);
+    @media screen and (min-width: $table) {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
-// .team-soc-link:hover, 
-// .team-soc-link:focus {
-//     background-color: var(--accent-color);
-// }
+.team__item {
+    background-color: var(--main-bg-cl);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%),
+        0px 1px 1px rgb(0 0 0 / 14%),
+        0px 2px 1px rgb(0 0 0 / 20%);
+}
 
-.team-soc-icon {
-    fill: #AFB1BA;
-    .team-soc-link:hover &, 
-    .team-soc-link:focus & {
-    fill: #FFFFFF;
+
+.team__img {
+    @media screen and (min-width: $table) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 270px;
+        height: 260px;
     }
 }
 
-.team-titel-name {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-text);
-margin-bottom: 10px;
+.team__info {
+    padding: 30px 0 24px 0;
+    @media screen and (min-width: $desktop) {
+        padding: 30px 0 30px 0;
+    }
 }
 
-.team-text {
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--section-text);
+.team__name {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    color: var(--main-text-cl);
+}
+
+.team__occupation {
+    margin: 0 0 16px 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-cl);
+}
+
+.team__social-list {
+    display: flex;
+    padding: 0;
+    justify-content: center;
 }

@@ -1,18 +1,21 @@
 @import "./utils/vars";
-
-@import "./base/reset";
 @import "./base/common";
+@import "./base/container";
+@import "./utils/hero-responsive-image";
 
-@import "./components/container";
-@import "./components/section";
+@import "./components/menu";
 @import "./components/modal";
+@import "./components/logo";
+@import "./components/btn";
+@import "./components/title";
 
-
-@import "./layout/heder";
-@import "./layout/herov";
+@import "./layout/header";
+@import "./layout/hero";
 @import "./layout/features";
 @import "./layout/work";
 @import "./layout/team";
+@import "./components/social";
 @import "./layout/clients";
 @import "./layout/footer";
+
 @import "./layout/portfolio";
